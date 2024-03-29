@@ -28,7 +28,7 @@ body {
 }
 
 .border-white {
-  margin-top: 50px;
+  margin-top: 70px;
   width: 100%;
   border-bottom: white solid 10px;
   display: block;
@@ -38,19 +38,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -40px;
+  margin-top: -60px;
 }
 
 .white-box {
   background-color: white;
   color: black;
   border: black solid 5px;
-  width: 200px;
   display: flex;
+  width: 10rem;
   justify-content: center;
   align-items: center;
 }
 
+.white-box p {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+}
 .grid-form {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -77,7 +81,10 @@ body {
 .input-group input {
   height: 120px;
   font-size: 100px;
-  width: 120px;
+  width: 140px;
+  font-family: monospace;
+  color: beige;
+  background: none;
 }
 
 .btn-group {
@@ -97,4 +104,5 @@ body {
 
 .btn:hover {
   color: red;
+  cursor: pointer;
 }
