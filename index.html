@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Object Manipulation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-text">
+      <h1>Dom Experiment</h1>
+    </div>
+    <div class="dom-text">
+      <div class="border-white"></div>
+      <div class="box-text">
+        <div class="white-box">
+          <h3 class="edit here...">Edit This...</h3>
+        </div>
+      </div>
+    </div>
+    <div class="grid-form">
+      <div class="input-group">
+        <label for="num-input"> Guess Here</label>
+        <input
+          maxlength="2"
+          class="num-input"
+          type="number"
+          min="0"
+          max="99"
+          name="num-input"
+          id="num-input"
+        />
+      </div>
+      <div class="score">
+        <p>saved : <span class="saved"> 0</span></p>
+        <p>Last saved : <span class="last">0</span></p>
+      </div>
+    </div>
+    <div class="btn-group">
+      <button class="btn save">Save this !</button>
+      <button class="btn restart">Restart !</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
